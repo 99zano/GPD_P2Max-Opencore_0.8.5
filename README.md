@@ -1,4 +1,4 @@
-# GPD P2Max Monterey Hackintosh
+# GPD P2 Max Monterey Hackintosh
 GPD P2 Max Opencore Efi folder, tested with monterey 12.5.1 and 12.6 
 
 ## Requierements
