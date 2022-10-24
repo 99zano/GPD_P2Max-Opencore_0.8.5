@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19280\viewh12560\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 GPD P2 Max Opencore Efi folder, tested with monterey 12.6, basically an attempt to convert @Azkali EFI to Opencore\
+\
+Firs you need to set the DVMT Pre-Allocated from 32M to 64M and to unlock the CFG Lock for enabling native power management (notes)\
+\
+Working:\
+- Graphics Acceleration\
+- Brightness control and hotkeys\
+- Volume control and hotkeys (speakers, mic, jack)\
+- Camera\
+- USB A(x2) and C\
+- Battery status and native power management\
+- Sleep/Wake\
+- Bluetooth\
+- Internal Wifi\
+- Touchpad and keyboard (notes)\
+- TouchScreen (notes)\
+\
+Not Working:\
+- Fingerprint reader\
+\
+Notes:\
+- BIOS version I used is 0.29\
+- For set the DVMT Pre-Allocated to 64M and unlock the CFG Lock I typed the following from grub:\
+  - setup_var Setup 0x876 0x02 <sub>*(DVMT)*</sub>\
+  - setup_var Setup 0x587 0x00 <sub>*(CFG Lock)</sub>*\
+- Touchpad:\
+  - I downgraded the keyboard firmware according to @Azkali repository, requiered file is inside *touchpad_fix*\
+- Touchscreen:\
+  - using the older versions of i2c and i2cgoodix touchscreen works but it stop working if upgraded to the latest version one of those kexts\
+  - multitouch isn't fully enabled and works well only up to two fingers, shurly is fixable but sudly i didn't have more time to spend on this little big guy\
+\
+Credits:\
+Thanks to @Azkali, I started this project from his clover EFI, and to @dortania for the great Opencore bootloader and docs! }
