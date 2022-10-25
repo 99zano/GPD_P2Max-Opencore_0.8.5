@@ -1,5 +1,5 @@
 # GPD P2 Max Monterey Hackintosh
-GPD P2 Max Opencore Efi folder, tested with monterey 12.5.1 and 12.6 
+GPD P2 Max Opencore Efi folder, tested with Monterey 12.5.1 and 12.6 
 
 ## Requierements
 You need to set the DVMT Pre-Allocated from 32M to 64M and to unlock the CFG Lock for enabling native power management *(see notes)*
