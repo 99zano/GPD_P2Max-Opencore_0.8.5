@@ -1,8 +1,6 @@
 # GPD P2 Max Monterey Hackintosh
 GPD P2 Max Opencore Efi folder, tested with Monterey 12.5.1 and 12.6
 
-<img width="1280" alt="Schermata 2022-10-24 alle 19 31 02" src="https://user-images.githubusercontent.com/106203008/197646313-9f3db39d-f832-4e36-bccb-42875691a851.png">
-
 ## Working
 - Graphics Acceleration
 - Brightness control and hotkeys
@@ -32,9 +30,12 @@ GPD P2 Max Opencore Efi folder, tested with Monterey 12.5.1 and 12.6
   - multitouch works well only up to two fingers, maybe fixable but I'm not dedicating any time on it
 - **Undervolting:**
   - I'm currently running voltageshift 1.25 with all the offsets at -70mV, these values aren't searched accurately, shurely much stabler values can be found
+- Remember to change itlwm **country code** in boot args according to your contry and to generate your own **serial number**
 
 ## Screenshots
+<img width="1280" alt="Schermata 2022-10-24 alle 19 31 02" src="https://user-images.githubusercontent.com/106203008/197646313-9f3db39d-f832-4e36-bccb-42875691a851.png">
+###
 <img width="1280" alt="Schermata 2022-10-24 alle 12 44 16" src="https://user-images.githubusercontent.com/106203008/197648199-6c11d572-74a5-4e25-bcd9-e00c4007d8b6.png">
  
 ## Credits
-Thanks to @Azkali, his Clover EFI was crucial for this project, to the amazing @dortania team and to the GPD guys for gave us this unique machine
+Thanks to @Azkali, his Clover EFI was crucial for this project, to @dortania team and the GPD guys for gave us this unique machine
