@@ -30,7 +30,7 @@ GPD P2 Max Opencore Efi folder, tested with Monterey 12.5.1 and 12.6
 - **Touchscreen:**
   - works only using the older versions of i2c and i2cgoodix but it stops working upgrading just one of those kexts to the latest version
   - multitouch works well only up to two fingers, maybe fixable but I'm not dedicating any time on it
-- **Undervolt:**
+- **Undervolting:**
   - I'm currently running voltageshift 1.25 with all the offsets at -70mV, these values aren't searched accurately, shurely much stabler values can be found
 
 ## Screenshots
