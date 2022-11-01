@@ -24,7 +24,7 @@ GPD P2 Max Opencore Efi folder, tested with Monterey 12.5.1 and 12.6
   - setup_var Setup 0x876 0x02 <sub>*(DVMT)*</sub>
   - setup_var Setup 0x587 0x00 <sub>*(CFG Lock)</sub>*
 - **Touchpad:**
-  - I downgraded the keyboard firmware according to @Azkali repository, requiered file is in *touchpad_fix*
+  - I downgraded the keyboard firmware according to @Azkali repository, requiered file is in *touchpad*
 - **Touchscreen:**
   - works only using the older versions of i2c and i2cgoodix but it stops working upgrading just one of those kexts to the latest version
   - multitouch works well only up to two fingers, maybe fixable but I'm not dedicating any time on it
